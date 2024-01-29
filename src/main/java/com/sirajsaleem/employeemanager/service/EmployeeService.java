@@ -1,4 +1,4 @@
-package service;
+package com.sirajsaleem.employeemanager.service;
 
 import java.util.List;
 import java.util.UUID;
@@ -6,9 +6,9 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import exception.UserNotFoundException;
-import model.Employee;
-import repo.EmployeeRepo;
+import com.sirajsaleem.employeemanager.exception.UserNotFoundException;
+import com.sirajsaleem.employeemanager.model.Employee;
+import com.sirajsaleem.employeemanager.repo.EmployeeRepo;
 
 @Service
 public class EmployeeService {

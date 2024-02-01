@@ -10,7 +10,10 @@ import com.sirajsaleem.employeemanager.exception.UserNotFoundException;
 import com.sirajsaleem.employeemanager.model.Employee;
 import com.sirajsaleem.employeemanager.repo.EmployeeRepo;
 
+import jakarta.transaction.Transactional;
+
 @Service
+@Transactional
 public class EmployeeService {
 	private final EmployeeRepo employeeRepo;
 
